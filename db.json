@@ -1,0 +1,128 @@
+{
+    "Platos":[{
+
+        "id": 1,
+        "nombre":"Torilla de patata con cebolla",
+        "precio": 10,
+        "categoria":1
+
+    },
+    {
+
+        "id": 13,
+        "nombre":"Torilla de patata sin cebolla",
+        "precio": 10,
+        "categoria":1
+
+    },
+    {
+      "id": 2,
+      "nombre": "Pizza BBQ",
+      "precio": 15,
+      "categoria": 1
+    },
+    {
+      "id": 3,
+      "nombre": "Granizado de Limón",
+      "precio": 5,
+      "categoria": 3
+    },
+    {
+      "id": 4,
+      "nombre": "Pastel de Chocolate",
+      "precio": 11,
+      "categoria": 3
+    },
+    {
+      "id": 5,
+      "nombre": "Zumo de piña",
+      "precio": 15,
+      "categoria": 2
+    },
+    {
+      "id": 6,
+      "nombre": "Pizza carbonara",
+      "precio": 12,
+      "categoria": 1
+    },
+    {
+      "id": 7,
+      "nombre": "Ensaada cesar",
+      "precio": 11,
+      "categoria": 1
+    },
+    {
+      "id": 8,
+      "nombre": "zumo de Naranja",
+      "precio": 5,
+      "categoria": 2
+    },
+    {
+      "id": 9,
+      "nombre": "Tequila",
+      "precio": 2,
+      "categoria": 2
+    },
+    {
+      "id": 10,
+      "nombre": "Rebanada de Pan con Queso",
+      "precio": 7,
+      "categoria": 3
+    },
+    {
+      "id": 11,
+      "nombre": "Café Americano",
+      "precio": 3,
+      "categoria": 2
+    },
+    {
+      "id": 12,
+      "nombre": "Café Capuchino",
+      "precio": 4,
+      "categoria": 2
+    },
+    {
+      "id": 14,
+      "nombre": "Coca cola",
+      "precio": 3,
+      "categoria": 2
+    },
+    {
+      "id": 15,
+      "nombre": "Cerveza",
+      "precio": 2,
+      "categoria": 2
+    },
+    {
+      "id": 16,
+      "nombre": "Vino",
+      "precio": 5,
+      "categoria": 2
+    },
+    {
+      "id": 17,
+      "nombre": "Soloillo",
+      "precio": 24,
+      "categoria": 1
+    },
+    {
+      "id": 18,
+      "nombre": "Platano",
+      "precio": 2,
+      "categoria": 3
+    },
+    {
+      "id": 19,
+      "nombre": "Licor",
+      "precio": 4,
+      "categoria": 2
+    },
+    {
+      "id": 20,
+      "nombre": "Conbinado",
+      "precio": 8,
+      "categoria": 2
+    }
+
+    ]
+}
