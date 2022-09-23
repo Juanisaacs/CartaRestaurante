@@ -325,6 +325,24 @@ function formularioPropinas(){
     const heading = document.createElement('H3');
     heading.classList.add('my-4', 'text-center');
     heading.textContent = 'Propinas';
+    //Radio button propinas 10%
+    const radio0 = document.createElement('INPUT')
+    radio0.type ='radio';
+    radio0.name = 'popina';
+    radio0.value = '0';
+    radio0.classList.add('form-check-input');
+    radio0.onclick = calcularPropina;
+
+    const radio0Label = document.createElement('LABEL');
+    radio0Label.textContent = '0%';
+    radio0Label.classList.add('form-check-label');
+
+    const radio0Div = document.createElement('DIV');
+    radio0Div.classList.add('form-check');
+
+    //Argar al div pincipal
+    radio0Div.appendChild(radio0);
+    radio0Div.appendChild(radio0Label)
 
     //Radio button propinas 10%
     const radio10 = document.createElement('INPUT')
@@ -386,8 +404,8 @@ function formularioPropinas(){
        radio50Div.appendChild(radio50Label);
 
     //Agrgarlo al Formulario
-  
-    divFormulario.appendChild(heading);
+    divFormulario.appendChild(heading);  
+    divFormulario.appendChild(radio0Div);
     divFormulario.appendChild(radio10Div);
     divFormulario.appendChild(radio25Div);
     divFormulario.appendChild(radio50Div);
