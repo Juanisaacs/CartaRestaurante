@@ -325,10 +325,11 @@ function formularioPropinas(){
     const heading = document.createElement('H3');
     heading.classList.add('my-4', 'text-center');
     heading.textContent = 'Propinas';
-    //Radio button propinas 10%
+
+    //Radio button propinas 0%
     const radio0 = document.createElement('INPUT')
     radio0.type ='radio';
-    radio0.name = 'popina';
+    radio0.name = 'propina';
     radio0.value = '0';
     radio0.classList.add('form-check-input');
     radio0.onclick = calcularPropina;
